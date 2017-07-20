@@ -17,7 +17,7 @@ var cfg = './config'
 
 mongoose.connect(db);
 // view engine setup
-app.set('views', path.join(__dirname, 'views'));
+app.set('views', path.join(__dirname, '../../client_side/build'));
 app.set('view engine', 'jade');
 
 
